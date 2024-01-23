@@ -1,0 +1,227 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heightS {
+ height: 80vh;
+}
+.nb{
+  display: none;
+}
+.glass {
+  /* From https://css.glass */
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  /* border-radius: 16px; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.imgprop{
+  max-width: 250px;
+  width: 100%;
+  max-height: 150px;
+  height: 100%;
+}
+.grids{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.border-green-500 {
+  --tw-border-opacity: 1;
+  border-color: #910A67;
+}
+.sliderss {
+  max-width: 400px;
+}
+.Four-cards-container{
+  /* border: 2px solid green; */
+
+  /* padding: 2rem; */
+  margin: 12px auto;
+}
+.cards-four{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 320px;
+  cursor: pointer;
+  height: 200px;
+}
+.hunder{
+  height: 90vh;
+}
+.divs-input{
+  position: relative;
+
+  /* border: 2px solid green; */
+}
+.logo{
+  width: 30%;
+}
+.ab{
+  position: absolute;
+  /* border: 4px solid red; */
+  z-index: 999;
+  height: 100%;
+  right: 7px;
+  
+}
+.smallcaps{
+  font-variant-caps:small-caps;
+}
+.ab ion-icon{
+  position: relative;
+  z-index: 899;
+  cursor: pointer;
+  padding: 0 7px;
+  /* padding: 1.2rem; */
+  height: 100%;
+background-color: #6e1ed6;
+  color: rgb(255, 255, 255)!important;
+}
+@media screen and (max-width: 768px) {
+  .divs-input{
+    width: 200px;
+  }
+  .nb{
+    display: block;
+  }
+  .imgnot{
+    width: 100%;
+  }
+  .coll{
+    flex-direction: column;
+  }
+  .imgThirty{
+    width: 60%!important;
+  }
+  .selct{width: 12px;}
+  .hiddenTop {
+    display: none;
+  }
+  .hunder{
+    height: none;
+  }
+  .heightS {
+    height: 100%!important;
+    flex-direction: column;
+  }
+  .whunderd {
+    width: 100%;
+  }
+  .glass {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+  .padding {
+    padding: 0.5rem;
+  }
+  .font-bolders {
+    font-weight: 700!important;
+  }
+  .cards-four {
+  
+    width: 100%;
+    height: 200px;
+}
+.Four-cards-container{
+  padding: 0.7rem;
+}
+.trending__cards-container {
+ 
+  backdrop-filter: none!important;
+  -webkit-backdrop-filter:none;
+ 
+}
+.colum{
+  flex-direction: column;
+}
+.noheight{
+height: auto;
+}
+.wfulls{
+  width: 100%;
+}
+.grids{
+  /* border: 2px solid; */
+ margin: 0 auto;
+width: 100%;
+  grid-template-columns: repeat(2,1fr);
+}
+.borders{
+  border: 1px solid black;
+}
+.imgprop {
+  aspect-ratio: 1/2;
+}
+.glass2{
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+/* backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px); */
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.confirm-post-seciton .container .confirm-title p {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+}
+}
+@media screen and (max-width: 893px) {
+  .heightS {
+    min-height: 88vh!important;
+  }
+}
+@media screen and (max-width: 493px) {
+  .grids{
+    /* border: 2px solid; */
+   margin: 0 auto;
+width: 100%;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .anchorHeight{
+    display: block !important;
+    min-height: 200px;
+    /* border: 2px solid!important; */
+  }
+  .borders{
+    border: 1px solid black;
+  }
+}
+
+
+
+@media screen and (max-width:318px) {
+  .divs-input{
+    width: 150px;
+  }
+  .normargin{
+    margin: 0;
+  }
+}
+
+
+
+@media screen and  (max-width:1192px) {
+  .top-header-section ul {
+    width: 100%;
+    line-height: 1.3;
+}
+}
+.noPadding{
+  padding: 0rem!important;
+}
+@media screen and  (max-width:1398px) {
+  .top-header-section ul {
+    width: 100%;
+    line-height: 2.3!important;
+}
+.heightS {
+  height: 86vh;
+}
+}
